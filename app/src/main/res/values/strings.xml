@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Coffee Order App</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+    <string name="order_button_text">Order</string>
+    <string name="initial_price">$0</string>
+    <string name="price_label">Price</string>
+    <string name="initial_quantity">0</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="slogan">We are provide best quality coffee at affordable price</string>
+    <string name="greet_message">Welcome to Coffee stall</string>
+</resources>
