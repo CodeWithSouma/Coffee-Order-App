@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     public void submitOrder(View view) {
         displayQuantity();
         displayPrice();
+        displayOrderSummary("Souma");
     }
 
     private int calculatePrice() {
@@ -39,7 +40,18 @@ public class MainActivity extends AppCompatActivity {
         int price = calculatePrice();
         TextView priceTextView = findViewById(R.id.price_text_view);
         String formattedPrice = NumberFormat.getCurrencyInstance(Locale.US).format(price);
-        priceTextView.setText(formattedPrice);
+        priceTextView.setText("Total price: " + formattedPrice);
+    }
+
+    public void displayOrderSummary(String name) {
+        int price = calculatePrice();
+        TextView orderSummaryTextView = findViewById(R.id.order_summary_textView);
+        String orderSummary = "Name: " + name + " !!!\n" +
+                "Quantity: " + quantity + " cup of coffee " +
+                "\nTotal price: $" + price + " \n" +
+                "Thank you!!!";
+        orderSummaryTextView.setText(orderSummary);
+
     }
 
     public void increment(View view) {
@@ -49,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void decrement(View view) {
+        if (quantity <= 1) return;
         quantity--;
         displayQuantity();
         displayPrice();

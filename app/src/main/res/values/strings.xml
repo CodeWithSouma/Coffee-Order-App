@@ -9,4 +9,5 @@
     <string name="quantity_label">Quantity</string>
     <string name="slogan">We are provide best quality coffee at affordable price</string>
     <string name="greet_message">Welcome to Coffee stall</string>
+    <string name="order_summary">Order summary</string>
 </resources>

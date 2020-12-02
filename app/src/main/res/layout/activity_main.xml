@@ -104,7 +104,26 @@
         android:layout_marginLeft="@dimen/margin_8dp"
         android:layout_marginTop="@dimen/margin_16dp"
         android:text="@string/initial_price"
+        android:textSize="@dimen/text_size_16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_8dp"
+        android:layout_marginLeft="@dimen/margin_8dp"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:text="@string/order_summary"
         android:textAllCaps="true"
+        android:textSize="@dimen/text_size_16sp" />
+
+    <TextView
+        android:id="@+id/order_summary_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_8dp"
+        android:layout_marginLeft="@dimen/margin_8dp"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:text=""
         android:textSize="@dimen/text_size_16sp" />
 
     <Button
