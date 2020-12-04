@@ -10,4 +10,6 @@
     <string name="slogan">We are provide best quality coffee at affordable price</string>
     <string name="greet_message">Welcome to Coffee stall</string>
     <string name="order_summary">Order summary</string>
+    <string name="how_many_do_you_need">How many do you need?</string>
+    <string name="description_text">Double espresso, Steamed milk foam,Hot milk</string>
 </resources>
