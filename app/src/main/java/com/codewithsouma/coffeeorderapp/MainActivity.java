@@ -2,6 +2,7 @@ package com.codewithsouma.coffeeorderapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         displayQuantity();
         displayPrice();
         displayOrderSummary("Souma");
+        startActivity(new Intent(this,MainActivity2.class));
     }
 
     private int calculatePrice() {
