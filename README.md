@@ -1,2 +1,2 @@
 # Coffee-Order-App
-A simple coffee order app using android
+A simple coffee ordering app using android
