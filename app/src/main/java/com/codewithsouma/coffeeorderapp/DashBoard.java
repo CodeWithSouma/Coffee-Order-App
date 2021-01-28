@@ -2,33 +2,32 @@ package com.codewithsouma.coffeeorderapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
-import java.text.NumberFormat;
-import java.util.Locale;
-
-public class MainActivity extends AppCompatActivity {
-    private int quantity = 2;
+public class DashBoard extends AppCompatActivity {
+//    private int quantity = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        displayQuantity();
-        displayPrice();
+        setContentView(R.layout.dashboard);
+//        displayQuantity();
+//        displayPrice();
     }
 
-    public void submitOrder(View view) {
+    public void handleClick(View view) {
+
+    }
+
+   /* public void submitOrder(View view) {
         displayQuantity();
         displayPrice();
         displayOrderSummary("Souma");
-        startActivity(new Intent(this,MainActivity2.class));
-    }
+        startActivity(new Intent(this,OrderSummary.class));
+    }*/
 
-    private int calculatePrice() {
+    /*private int calculatePrice() {
         final int PRICE_OF_EVERY_CUP = 5;
         return quantity * PRICE_OF_EVERY_CUP;
     }
@@ -43,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
         TextView priceTextView = findViewById(R.id.price_text_view);
         String formattedPrice = NumberFormat.getCurrencyInstance(Locale.US).format(price);
         priceTextView.setText("Total price: " + formattedPrice);
-    }
+    }*/
 
-    public void displayOrderSummary(String name) {
+    /*public void displayOrderSummary(String name) {
         int price = calculatePrice();
         TextView orderSummaryTextView = findViewById(R.id.order_summary_textView);
         String orderSummary = "Name: " + name + " !!!\n" +
@@ -54,9 +53,9 @@ public class MainActivity extends AppCompatActivity {
                 "Thank you!!!";
         orderSummaryTextView.setText(orderSummary);
 
-    }
+    }*/
 
-    public void increment(View view) {
+/*    public void increment(View view) {
         quantity++;
         displayQuantity();
         displayPrice();
@@ -67,5 +66,5 @@ public class MainActivity extends AppCompatActivity {
         quantity--;
         displayQuantity();
         displayPrice();
-    }
+    }*/
 }
