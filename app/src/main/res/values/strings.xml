@@ -12,4 +12,21 @@
     <string name="order_summary">Order summary</string>
     <string name="how_many_do_you_need">How many do you need?</string>
     <string name="description_text">Double espresso, Steamed milk foam,Hot milk</string>
+
+    <string name="americano">Americano</string>
+    <string name="black_coffee">Black coffee</string>
+    <string name="cappuccino">Cappuccino</string>
+    <string name="mocha">Mocha</string>
+    <string name="latte">Latte</string>
+    <string name="espresso">Espresso</string>
+
+    <string-array name="coffee_names">
+        <item>Americano</item>
+        <item>Black coffee</item>
+        <item>Cappuccino</item>
+        <item>Mocha</item>
+        <item>Latte</item>
+        <item>Espresso</item>
+    </string-array>
+
 </resources>

@@ -33,7 +33,7 @@
             android:layout_marginLeft="@dimen/margin_8dp"
             android:layout_marginTop="@dimen/margin_16dp"
             android:layout_marginRight="@dimen/margin_8dp"
-            android:src="@drawable/coffee_cup" />
+            android:src="@drawable/cappuccino" />
 
         <TextView
             android:layout_width="match_parent"

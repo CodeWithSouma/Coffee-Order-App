@@ -59,12 +59,12 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
-                            android:src="@drawable/coffee_cup" />
+                            android:src="@drawable/americano" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="AND GATE"
+                            android:text="@string/americano"
                             android:textStyle="bold" />
 
                         <View
@@ -107,12 +107,12 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
-                            android:src="@drawable/coffee_cup2" />
+                            android:src="@drawable/black_coffee" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="OR GATE"
+                            android:text="@string/black_coffee"
                             android:textStyle="bold" />
 
                         <View
@@ -164,12 +164,12 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
-                            android:src="@drawable/coffee_cup3" />
+                            android:src="@drawable/cappuccino" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="NOT GATE"
+                            android:text="@string/cappuccino"
                             android:textStyle="bold" />
 
                         <View
@@ -212,12 +212,12 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
-                            android:src="@drawable/coffee_cup4" />
+                            android:src="@drawable/mocha" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="NAND GATE"
+                            android:text="@string/mocha"
                             android:textStyle="bold" />
 
                         <View
@@ -269,12 +269,12 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
-                            android:src="@drawable/coffee_cup5" />
+                            android:src="@drawable/latte" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="NOR GATE"
+                            android:text="@string/latte"
                             android:textStyle="bold" />
 
                         <View
@@ -317,12 +317,12 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:scaleType="fitCenter"
-                            android:src="@drawable/coffee_cup6" />
+                            android:src="@drawable/espresso" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="XOR GATE"
+                            android:text="@string/espresso"
                             android:textStyle="bold" />
 
                         <View
