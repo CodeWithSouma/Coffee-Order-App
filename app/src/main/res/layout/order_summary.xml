@@ -27,6 +27,7 @@
             android:textStyle="bold" />
 
         <ImageView
+            android:id="@+id/coffee_image_view_ID"
             android:layout_width="250dp"
             android:layout_height="250dp"
             android:layout_gravity="center_horizontal"
@@ -36,6 +37,7 @@
             android:src="@drawable/cappuccino" />
 
         <TextView
+            android:id="@+id/coffee_name_text_view_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/margin_8dp"
@@ -49,6 +51,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/coffee_description_text_view_ID"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
