@@ -35,6 +35,7 @@
     <string name="mocha_desc">Chocolate, Espresso, Hot milk</string>
     <string name="latte_desc">Espresso, Milk</string>
     <string name="espresso_desc">Double espresso, Hot milk</string>
+    <string name="choose_your_drink">Choose your drink</string>
 
     <string-array name="coffee_description">
         <item>Espresso, Hot water</item>
