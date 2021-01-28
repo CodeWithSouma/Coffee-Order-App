@@ -66,19 +66,19 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
                             android:text="@string/americano"
                             android:textColor="@color/coffee_color"
-                            android:fontFamily="sans-serif-light"
                             android:textStyle="bold" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
                             android:gravity="center"
                             android:padding="@dimen/description_padding"
-                            android:text="The output is true when both inputs are true."
-                            android:fontFamily="sans-serif-light"
+                            android:text="@string/americano_desc"
                             android:textColor="@android:color/darker_gray" />
 
                         <TextView
@@ -122,8 +122,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/black_coffee"
                             android:fontFamily="sans-serif-light"
+                            android:text="@string/black_coffee"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -131,10 +131,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
                             android:gravity="center"
                             android:padding="@dimen/description_padding"
-                            android:fontFamily="sans-serif-light"
-                            android:text="The output is true if either or both of the inputs are true."
+                            android:text="@string/black_coffee_desc"
                             android:textColor="@android:color/darker_gray" />
 
                         <TextView
@@ -142,8 +142,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/margin_5dp"
                             android:layout_marginBottom="@dimen/margin_15dp"
-                            android:text="$4.54"
                             android:fontFamily="sans-serif-light"
+                            android:text="$4.54"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -187,8 +187,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/cappuccino"
                             android:fontFamily="sans-serif-light"
+                            android:text="@string/cappuccino"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -196,10 +196,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:gravity="center"
                             android:fontFamily="sans-serif-light"
+                            android:gravity="center"
                             android:padding="@dimen/description_padding"
-                            android:text="If the input is true, then the output is false. If the input is false, then the output is true."
+                            android:text="@string/cappuccino_desc"
                             android:textColor="@android:color/darker_gray" />
 
                         <TextView
@@ -207,8 +207,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/margin_5dp"
                             android:layout_marginBottom="@dimen/margin_15dp"
-                            android:text="$3.21"
                             android:fontFamily="sans-serif-light"
+                            android:text="$3.21"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -243,19 +243,19 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
                             android:text="@string/mocha"
                             android:textColor="@color/coffee_color"
-                            android:fontFamily="sans-serif-light"
                             android:textStyle="bold" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
                             android:gravity="center"
                             android:padding="@dimen/description_padding"
-                            android:fontFamily="sans-serif-light"
-                            android:text="The output is false if both inputs are true. Otherwise, the output is true."
+                            android:text="@string/mocha_desc"
                             android:textColor="@android:color/darker_gray" />
 
                         <TextView
@@ -308,20 +308,20 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
                             android:text="@string/latte"
                             android:textColor="@color/coffee_color"
-                            android:fontFamily="sans-serif-light"
                             android:textStyle="bold" />
 
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
                             android:gravity="center"
                             android:padding="@dimen/description_padding"
-                            android:text="Its output is true if both inputs are false. Otherwise, the output is false."
-                            android:textColor="@android:color/darker_gray"
-                            android:fontFamily="sans-serif-light" />
+                            android:text="@string/latte_desc"
+                            android:textColor="@android:color/darker_gray" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -364,8 +364,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/espresso"
                             android:fontFamily="sans-serif-light"
+                            android:text="@string/espresso"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -373,10 +373,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:gravity="center"
                             android:fontFamily="sans-serif-light"
+                            android:gravity="center"
                             android:padding="@dimen/description_padding"
-                            android:text="The output is true if the inputs are different, but false if the inputs are the same. "
+                            android:text="@string/espresso_desc"
                             android:textColor="@android:color/darker_gray" />
 
                         <TextView
