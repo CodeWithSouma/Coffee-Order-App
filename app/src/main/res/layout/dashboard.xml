@@ -86,7 +86,7 @@
                             android:layout_marginTop="@dimen/margin_5dp"
                             android:layout_marginBottom="@dimen/margin_15dp"
                             android:fontFamily="sans-serif-light"
-                            android:text="$3.24"
+                            android:text="@string/americano_price"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -141,7 +141,7 @@
                             android:layout_marginTop="@dimen/margin_5dp"
                             android:layout_marginBottom="@dimen/margin_15dp"
                             android:fontFamily="sans-serif-light"
-                            android:text="$4.54"
+                            android:text="@string/black_coffee_price"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -205,7 +205,7 @@
                             android:layout_marginTop="@dimen/margin_5dp"
                             android:layout_marginBottom="@dimen/margin_15dp"
                             android:fontFamily="sans-serif-light"
-                            android:text="$3.21"
+                            android:text="@string/cappuccino_price"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -260,7 +260,7 @@
                             android:layout_marginTop="@dimen/margin_5dp"
                             android:layout_marginBottom="@dimen/margin_15dp"
                             android:fontFamily="sans-serif-light"
-                            android:text="$2.23"
+                            android:text="@string/mocha_price"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -324,7 +324,7 @@
                             android:layout_marginTop="@dimen/margin_5dp"
                             android:layout_marginBottom="@dimen/margin_15dp"
                             android:fontFamily="sans-serif-light"
-                            android:text="$3.54"
+                            android:text="@string/latte_price"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
 
@@ -379,7 +379,7 @@
                             android:layout_marginTop="@dimen/margin_5dp"
                             android:layout_marginBottom="@dimen/margin_15dp"
                             android:fontFamily="sans-serif-light"
-                            android:text="$5.24"
+                            android:text="@string/espresso_price"
                             android:textColor="@color/coffee_color"
                             android:textStyle="bold" />
                     </LinearLayout>

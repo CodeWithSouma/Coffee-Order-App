@@ -20,6 +20,21 @@
     <string name="latte">Latte</string>
     <string name="espresso">Espresso</string>
 
+    <string name="americano_desc">Espresso, Hot water</string>
+    <string name="black_coffee_desc">Chocolate, Steamed milk foam</string>
+    <string name="cappuccino_desc">Double espresso, Steamed milk foam</string>
+    <string name="mocha_desc">Chocolate, Espresso, Hot milk</string>
+    <string name="latte_desc">Espresso, Milk</string>
+    <string name="espresso_desc">Double espresso, Hot milk</string>
+    <string name="choose_your_drink">Choose your drink</string>
+
+    <string name="americano_price">$3.24</string>
+    <string name="black_coffee_price">$4.54</string>
+    <string name="cappuccino_price">$3.21</string>
+    <string name="mocha_price">$2.23</string>
+    <string name="latte_price">$3.54</string>
+    <string name="espresso_price">$5.24</string>
+
     <string-array name="coffee_names">
         <item>Americano</item>
         <item>Black coffee</item>
@@ -29,14 +44,6 @@
         <item>Espresso</item>
     </string-array>
 
-    <string name="americano_desc">Espresso, Hot water</string>
-    <string name="black_coffee_desc">Chocolate, Steamed milk foam</string>
-    <string name="cappuccino_desc">Double espresso, Steamed milk foam</string>
-    <string name="mocha_desc">Chocolate, Espresso, Hot milk</string>
-    <string name="latte_desc">Espresso, Milk</string>
-    <string name="espresso_desc">Double espresso, Hot milk</string>
-    <string name="choose_your_drink">Choose your drink</string>
-
     <string-array name="coffee_description">
         <item>Espresso, Hot water</item>
         <item>Chocolate, Steamed milk foam</item>
@@ -44,5 +51,14 @@
         <item>Chocolate, Espresso, Hot milk</item>
         <item>Espresso, Milk</item>
         <item>Double espresso, Hot milk</item>
+    </string-array>
+
+    <string-array name="coffee_prices">
+        <item>3.24</item>
+        <item>4.54</item>
+        <item>3.21</item>
+        <item>2.23</item>
+        <item>3.54</item>
+        <item>5.24</item>
     </string-array>
 </resources>

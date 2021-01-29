@@ -18,6 +18,7 @@ public class DashBoard extends AppCompatActivity {
 
     private String[] coffeeNames;
     private String[] coffeeDescriptions;
+    private String[] coffeePrices;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class DashBoard extends AppCompatActivity {
         setContentView(R.layout.dashboard);
         coffeeNames = getResources().getStringArray(R.array.coffee_names);
         coffeeDescriptions = getResources().getStringArray(R.array.coffee_description);
+        coffeePrices = getResources().getStringArray(R.array.coffee_prices);
 
     }
 
@@ -52,15 +54,17 @@ public class DashBoard extends AppCompatActivity {
         String coffeeName = coffeeNames[cardIndex];
         String coffeeDescription = coffeeDescriptions[cardIndex];
         int coffeeImage = coffeeImages[cardIndex];
+        double coffeePrice = Double.parseDouble(coffeePrices[cardIndex]);
 
-        startOrderSummaryActivity(coffeeName, coffeeDescription, coffeeImage);
+        startOrderSummaryActivity(coffeeName, coffeeDescription, coffeeImage,coffeePrice);
     }
 
-    private void startOrderSummaryActivity(String coffeeName, String coffeeDescription, int coffeeImage) {
+    private void startOrderSummaryActivity(String coffeeName, String coffeeDescription, int coffeeImage, double coffeePrice) {
         Intent orderSummaryActivity = new Intent(this, OrderSummary.class);
         orderSummaryActivity.putExtra("coffeeName",coffeeName);
         orderSummaryActivity.putExtra("coffeeImage",coffeeImage);
         orderSummaryActivity.putExtra("coffeeDescription",coffeeDescription);
+        orderSummaryActivity.putExtra("coffeePrice",coffeePrice);
         this.startActivity(orderSummaryActivity);
     }
 

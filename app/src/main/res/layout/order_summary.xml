@@ -81,6 +81,7 @@
                 android:background="@drawable/circle"
                 android:gravity="center_horizontal"
                 android:text="@string/decrement"
+                android:onClick="decrement"
                 android:textSize="27sp"
                 android:textStyle="bold"
                 app:backgroundTint="@color/button_color" />
@@ -105,6 +106,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:text="@string/increment"
+                android:onClick="increment"
                 android:textSize="27sp"
                 android:textStyle="bold"
                 app:backgroundTint="@color/button_color" />
