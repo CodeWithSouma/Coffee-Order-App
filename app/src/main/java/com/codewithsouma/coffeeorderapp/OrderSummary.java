@@ -2,10 +2,13 @@ package com.codewithsouma.coffeeorderapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.NumberFormat;
 import java.util.Locale;
@@ -78,11 +81,16 @@ public class OrderSummary extends AppCompatActivity {
         quantityTextView.setText(Integer.toString(quantity));
     }
 
-     /* public void submitOrder(View view) {
+      public void submitOrder(View view) {
+        String subject = "Order "+quantity+" cup of coffee";
+        String email = "shop@loverspoint.com";
+        String name = "Soumadip Dey";
+
         displayQuantity();
         displayPrice();
-        displayOrderSummary("Souma");
-    }*/
+        String orderSummary = getOrderSummary(name);
+        composeEmail(email, subject, orderSummary);
+    }
 
     private double calculatePrice() {
         return quantity * priceOfEveryCup;
@@ -94,16 +102,24 @@ public class OrderSummary extends AppCompatActivity {
         priceTextView.setText(formattedPrice);
     }
 
-    /*public void displayOrderSummary(String name) {
-        int price = calculatePrice();
-        TextView orderSummaryTextView = findViewById(R.id.order_summary_textView);
-        String orderSummary = "Name: " + name + " !!!\n" +
+
+    public String getOrderSummary(String name) {
+        double price = calculatePrice();
+        return "Name: " + name + "\n" +
+                "Coffee type: "+coffeeName+"\n"+
                 "Quantity: " + quantity + " cup of coffee " +
                 "\nTotal price: $" + price + " \n" +
                 "Thank you!!!";
-        orderSummaryTextView.setText(orderSummary);
+    }
 
-    }*/
+    public void composeEmail(String email, String subject, String orderSummary) {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:"));
+        intent.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
+        intent.putExtra(Intent.EXTRA_SUBJECT,subject);
+        intent.putExtra(Intent.EXTRA_TEXT,orderSummary);
+        startActivity(intent);
+    }
 
 
 }

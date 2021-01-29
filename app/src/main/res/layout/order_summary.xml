@@ -129,6 +129,7 @@
                 android:background="@drawable/rectangle"
                 android:backgroundTint="@color/gold"
                 android:clickable="true"
+                android:onClick="submitOrder"
                 android:foreground="?android:attr/selectableItemBackground">
 
                 <TextView
